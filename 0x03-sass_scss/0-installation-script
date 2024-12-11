@@ -12,9 +12,3 @@ exit terminal bash
 ## Step 5: Commit changes to GitHub
 
 Commit your changes to the `alx-intermediate-frontend` repository:
-
-
-```bash
-git add .
-git commit -m "Install SASS and create installation script"
-git push origin main
