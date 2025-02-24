@@ -1,0 +1,14 @@
+# Installation Steps for SASS
+
+## Step 1: Install Node (Optional)
+
+* Install Node version 20.16 using the following commands:
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh |
+
+exit terminal bash
+* install sass (optional) using the following command npm install sass -v 3.7.4
+
+## Step 5: Commit changes to GitHub
+
+Commit your changes to the `alx-intermediate-frontend` repository:

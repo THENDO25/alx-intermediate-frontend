@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["1-color_variable.scss"],"sourcesContent":["$text-color: #3D3D3D;\r\n\r\nbody {\r\n  color: $text-color;\r\n}\r\n\r\np {\r\n  color: $text-color;\r\n}"],"file":"1-color_variable.css"}

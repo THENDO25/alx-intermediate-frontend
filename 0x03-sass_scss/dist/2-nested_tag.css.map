@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["2-nested_tag.scss"],"sourcesContent":["$margin:0px;\r\nbody {\r\n    margin: 0px;\r\n    padding: 0px; \r\n  }\r\n  \r\n  body p {\r\n    margin: 10px; \r\n  }"],"file":"2-nested_tag.css"}
