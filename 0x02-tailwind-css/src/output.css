@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    line-height: 1.5;
+  }
+}
+
+@layer utilities {
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  .mt-4 {
+    margin-top: 1rem;
+  }
+
+
+  .text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .text-white {
+    color: #ffffff;
+  }
+  .text-gray-800 {
+    color: #2d3748;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+ 
+  .grid {
+    display: grid;
+  }
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .gap-4 {
+    gap: 1rem;
+  }
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  
+  .w {
+    width: 50%;
+  }
+
+  .bg-blue-500 {
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    
+    @layer base {
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        line-height: 1.5;
+      }
+    }
+    
+    @layer utilities {
+      .p-4 {
+        padding: 1rem;
+      }
+      .mb-4 {
+        margin-bottom: 1rem;
+      }
+      .text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+      }
+      .bg-blue-500 {
+        background-color: #3b82f6;
+      }
+      .text-white {
+        color: #ffffff;
+      }
+      .bg-red-200 {
+        background-color: #fecaca;
+      }
+      .bg-red-400 {
+        background-color: #f87171;
+      }
+      .bg-red-500 {
+        background-color: #f56565;
+      }
+      .bg-green-200 {
+        background-color: #86efac;
+      }
+      .bg-gray-300 {
+        background-color: #e5e7eb;
+      }
+      .bg-gray-800 {
+        background-color: #1f2937;
+      }
+      .rounded-lg {
+        border-radius: 0.5rem;
+      }
+      .lg\:col-span-2 {
+        grid-column: span 2 / span 2;
+      }
+      .flex {
+        display: flex;
+      }
+      .lg\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      .grid {
+        display: grid;
+      }
+      .grid-cols-1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+      .gap-4 {
+        gap: 1rem;
+      }
+      .object-cover {
+        object-fit: cover;
+      }
+      .w-full {
+        width: 100%;
+      }
+      .h-auto {
+        height: auto;
+      }
+      .mt-4 {
+        margin-top: 1rem;
+      }
+      .min-h-screen {
+        min-height: 100vh;
+      }
+    }
+    
+    @layer utilities {
+  
+      @media (max-width: 768px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        .gallery {
+          grid-template-columns: 1fr;
+        }
+      }
+      
+  
+      @media (min-width: 768px) {
+        .gallery {
+          grid-template-columns: repeat(3, 1fr);
+          gap: 1rem;
+        }
+      }
+    }
+    
+    background-color: #3b82f6;
+  }
+  .bg-gray-800 {
+    background-color: #2d3748;
+  }
+  .bg-green-200 {
+    background-color: #bbf7d0;
+  }
+
+  
+  .bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+  .from-red-200 {
+    --tw-gradient-from: #fecaca;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(254, 202, 202, 0));
+  }
+  .to-red-400 {
+    --tw-gradient-to: #f87171;
+  }
+
+ 
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
